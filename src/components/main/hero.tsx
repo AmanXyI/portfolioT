@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
+import { Quote } from "lucide-react";
 import { useState } from "react";
+import HeroImg from "../../../public/images/hero_profile.jpg";
 
 const bgImageVariant = {
   enter: { y: -100, scale: 20 },
@@ -17,7 +19,7 @@ const secondaryTextVariant = {
 const Hero = () => {
   const [hover, setHover] = useState(false);
   return (
-    <div className="flex flex-col items-center w-full h-full">
+    <div className="flex flex-col items-center w-full h-full pt-[6rem]">
       <motion.div
         className=""
         animate={hover ? "enter" : "exit"}
@@ -31,19 +33,25 @@ const Hero = () => {
       </motion.div>
 
       <motion.div
-        className="absolute flex w-full top-[50%] justify-between "
+        className="absolute flex w-full top-[50%] px-14 justify-between "
         variants={secondaryTextVariant}
         animate={hover ? "enter" : "exit"}
       >
-        <p className="w-[16rem]">
+        <p className="w-[16rem] font-semibold">
+          <div className="">
+            <Quote />
+          </div>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
           placeat, est doloremque exercitationem expedita aliquam,
         </p>
-        <p>achivements</p>
+        <div>
+          <h1 className="text-4xl font-semibold">10 Years</h1>
+          <p className="text-right">Experince</p>
+        </div>
       </motion.div>
-      <article className="">
+      <article className="hidden md:block">
         <div
-          className="bg-[#feb273] rounded-[100%] w-[40rem] h-[40rem]  flex justify-center items-center z-[-40]"
+          className="bg-[#feb273] rounded-[100%] w-[40rem] h-[40rem] mt-[5rem] flex justify-center items-center z-[-40]"
           onMouseEnter={() => {
             setHover(true);
           }}
@@ -51,6 +59,10 @@ const Hero = () => {
             setHover(false);
           }}
         >
+          <img
+            src={HeroImg}
+            className="absolute z-40 h-[30rem] translate-y-[-17rem]"
+          />
           <motion.div
             className="bg-black h-[2rem] w-[2rem]"
             variants={bgImageVariant}
