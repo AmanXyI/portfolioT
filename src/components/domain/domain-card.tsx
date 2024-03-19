@@ -12,7 +12,7 @@ const Card = () => {
   return (
     <div
       className={twMerge(
-        "bg-[#726a6a41] w-[20rem] h-full rounded-3xl flex justify-between flex-col overflow-hidden transition-all duration-300 relative",
+        "bg-[#726a6a41] w-[25rem] h-full rounded-3xl flex justify-between flex-col overflow-hidden transition-all duration-300 relative",
         hover ? "bg-[#fd853a]" : ""
       )}
       onMouseEnter={() => setHover(true)}

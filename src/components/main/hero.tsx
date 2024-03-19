@@ -26,7 +26,7 @@ const Hero = () => {
         variants={primaryTextVariant}
       >
         <h1 className="text-center font-semibold text-[4.5rem] leading-[4.5rem] mt-[5rem]">
-          I'm <span className="text-[#fd853a]">Name</span>,
+          I'm <span className="text-[#fd853a]">Tushar Choudhari</span>,
           <br />
           Product Manager
         </h1>

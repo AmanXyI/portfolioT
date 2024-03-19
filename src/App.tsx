@@ -1,3 +1,4 @@
+import ContactMe from "./components/contact-me/contact-me";
 import Domain from "./components/domain/domain";
 import Main from "./components/main/main";
 import ProjectPage from "./components/projects-page/project-page";
@@ -12,6 +13,7 @@ function App() {
       <WorkExp />
       <WhyHireMe />
       <ProjectPage />
+      <ContactMe />
     </div>
   );
 }
