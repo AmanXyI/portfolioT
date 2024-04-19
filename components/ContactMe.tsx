@@ -22,7 +22,7 @@ const ContactMe = () => {
         </div>
         <div className="">
           <h1 className="text-[1.5rem]">
-            Let's set a meeting time or a coffee time!
+            Let&apos;s set a meeting time or a coffee time!
           </h1>
           <div className="flex gap-8 pt-8 items-center">
             <Mail />

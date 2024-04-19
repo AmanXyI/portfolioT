@@ -29,12 +29,12 @@ const Hero = () => {
               The story of a tech lover!
             </h1>
             <p className="text-[1rem] font-semibold">
-              I utilize technology to bring convenience to people's lives and
-              solve problems
+              I utilize technology to bring convenience to people&apos;s lives
+              and solve problems
             </p>
 
             <p className="text-[1.1rem] mt-3 font-semibold ">
-              Here you'll find my story
+              Here you&apos;ll find my story
             </p>
           </div>
 

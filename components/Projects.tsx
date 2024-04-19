@@ -68,7 +68,7 @@ const Projects = () => {
             My Works & Projects
           </h1>
           <p className="text-[1rem] font-semibold text-grey-text">
-            During the past 10 years, I've had a brilliant opportunity to
+            During the past 10 years, I&apos;ve had a brilliant opportunity to
             communicate with passionate people who had a dream to lunch an
             online business or craved to automate their business procedures.
             Converting their business dreams into a user-friendly application
