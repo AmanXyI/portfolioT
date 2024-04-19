@@ -3,6 +3,7 @@ import { Inter, Nunito } from "next/font/google";
 import "./globals.css";
 import { PHProvider } from "./providers";
 import PostHogPageView from "./PostHogPageView";
+import Navbar from "@/components/ui/navbar";
 
 const inter = Nunito({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <PHProvider>
         <body className={inter.className}>
           <PostHogPageView />
+          <Navbar />
           {children}
         </body>
       </PHProvider>

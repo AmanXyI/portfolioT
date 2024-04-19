@@ -29,7 +29,7 @@ const ParallaxAbout = () => {
         <h1 className="mt-1 mb-3 text-3xl font-semibold">
           Creating a product is not the goal, providing convenience is the goal
         </h1>
-        <p className="text-sm font-semibold w-[38rem] ">
+        <p className="text-[1rem] font-semibold w-[38rem] ">
           Asking appropriate questions, finding the most important value that is
           supposed to be created and introduced, and focusing on that to
           develop, is the chief and very first responsibility of a product
