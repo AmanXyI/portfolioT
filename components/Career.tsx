@@ -11,7 +11,7 @@ const Career = () => {
         <h1 className="mt-1 mb-3 text-3xl font-semibold">
           My Career story in brief
         </h1>
-        <p className="text-sm font-semibold text-grey-text">
+        <p className="text-[1rem] font-semibold text-grey-text">
           Since I was accepted to university, I was looking for creating
           something special, a product that can change people's life. I'm still
           on that way. Find my career path until now in 2022 in the below
@@ -28,7 +28,7 @@ const Career = () => {
                   <h5 className="mb-1 text-sm font-semibold ">
                     Project Manager
                   </h5>
-                  <p className="mt-3 mb-0 text-sm timeline-subtitle text-slate-400">
+                  <p className="mt-3 mb-0 pl-[8rem] text-[1rem] timeline-subtitle text-slate-400">
                     At Fretron, a pioneering B2B SaaS firm transforming
                     logistics, I spearheaded user-centric digital initiatives
                     for global clients. Through collaborative user mapping, I
@@ -52,7 +52,6 @@ const Career = () => {
               >
                 <div className="relative duration md:text-left md:mr-8">
                   <div
-                    // className="absolute bg-black size-8 right-[104%] top-[-.5rem] "
                     className="absolute bg-navy-blue  rounded-full size-8 right-[104.2%] top-[-.5rem] before:absolute before:size-3 before:bg-dark-indigo before:left-[50%] before:translate-x-[-50%] before:top-[50%] before:translate-y-[-50%] before:rounded-full  "
                     style={{
                       border: "dashed 2px #374151",
@@ -108,7 +107,7 @@ const Career = () => {
                   <h5 className="mb-1 text-sm font-semibold title">
                     Product Manager
                   </h5>
-                  <p className="mt-3 mb-0 text-sm timeline-subtitle text-slate-400">
+                  <p className="mt-3 mb-0 pr-[14rem] text-[1rem] timeline-subtitle text-slate-400">
                     Blockting, comprised of industry experts, specializes in
                     devising marketing plans and development partnerships for
                     Blockchain and DeFi products. My role involves managing and
@@ -135,7 +134,7 @@ const Career = () => {
                   <h5 className="mb-1 text-sm font-semibold ">
                     Blockchain development Intern
                   </h5>
-                  <p className="mt-3 mb-0 text-sm timeline-subtitle text-slate-400">
+                  <p className="mt-3 mb-0 pl-[8rem] text-[1rem] timeline-subtitle text-slate-400">
                     At Snapper Future Tech, a leading player in blockchain
                     technology, I played a key role in the flagship TraceChain
                     project, where I researched and documented blockchain

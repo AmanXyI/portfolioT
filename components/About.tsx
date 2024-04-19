@@ -11,22 +11,22 @@ const skills = [
     title: "Tech Skills",
     content: [
       {
-        skill: "skill",
+        skill: "Agile Methodology",
       },
       {
-        skill: "skill",
+        skill: "Data Analytics",
       },
       {
-        skill: "skill",
+        skill: "Project Managment",
       },
       {
-        skill: "skill",
+        skill: "A/B Testing",
       },
       {
-        skill: "skill",
+        skill: "APIs",
       },
       {
-        skill: "skill",
+        skill: "Docker",
       },
     ],
   },
@@ -34,45 +34,45 @@ const skills = [
     title: "Soft Skills",
     content: [
       {
-        skill: "skill",
+        skill: "Public Speaking",
       },
       {
-        skill: "skill",
+        skill: "Leadership",
       },
       {
-        skill: "skill",
+        skill: "Risk Metigation",
       },
       {
-        skill: "skill",
+        skill: "Creativity",
       },
       {
-        skill: "skill",
+        skill: "Adaptiblity",
       },
       {
-        skill: "skill",
+        skill: "Businesss Acumen",
       },
     ],
   },
   {
-    title: "Certi Skills",
+    title: "Product Managment",
     content: [
       {
-        skill: "skill",
+        skill: "Market Reserach",
       },
       {
-        skill: "skill",
+        skill: "UI/UX",
       },
       {
-        skill: "skill",
+        skill: "Product Roadmap",
       },
       {
-        skill: "skill",
+        skill: "Strategy and Vision",
       },
       {
-        skill: "skill",
+        skill: "Product Launch",
       },
       {
-        skill: "skill",
+        skill: "SDLC",
       },
     ],
   },
@@ -80,19 +80,19 @@ const skills = [
 
 const mainSkills = [
   {
-    title: "Title",
+    title: "Managment",
     icon: <FaRuler />,
-    desc: "  An experienced Product manager and a Web developer with an extremefocus on designing and developing UI and UX. Thanks to more than 10years of experience in developing products and online services besidesthe experience in running my startup, I pose a collection of skillsranging from design skills and coding with modern web technologies andtechniques to marketing, SEO, and managing skills. I canconceptualize, create, develop and maintain ",
+    desc: "A product professional, crafting intuitive, elegant solutions that transform businesses is my driving force. With 20 months of experience managing products in logistics, tokenization, and education, I've developed a robust skillset spanning marketing, design, finance, and effective teamwork. This expertise empowers me to ideate innovative features and deliver impactful, user-centric products. The most rewarding part is directly engaging with customers, designers, and developers to create meaningful change.",
   },
   {
-    title: "Title",
+    title: "Engineering",
     icon: <BiPen />,
-    desc: "  An experienced Product manager and a Web developer with an extremefocus on designing and developing UI and UX. Thanks to more than 10years of experience in developing products and online services besidesthe experience in running my startup, I pose a collection of skillsranging from design skills and coding with modern web technologies andtechniques to marketing, SEO, and managing skills. I canconceptualize, create, develop and maintain ",
+    desc: "Graduated with a data science degree, but building cool websites with React (like this one!).  AI and Blockchain are fascinating ! I can design, test, and deploy the entire website architecture. My data skills include wrangling data with pipelines, deploying models, and using Docker and Kafka.  College NLP project with TensorFlow? Aced it! I can turn your data into compelling stories with Power BI. Plus, my Excel skills are top-notch (VLOOKUP champion!). Currently working on an LLM project!.",
   },
   {
-    title: "Title",
+    title: "Explorer",
     icon: <LuMonitor />,
-    desc: "  An experienced Product manager and a Web developer with an extremefocus on designing and developing UI and UX. Thanks to more than 10years of experience in developing products and online services besidesthe experience in running my startup, I pose a collection of skillsranging from design skills and coding with modern web technologies andtechniques to marketing, SEO, and managing skills. I canconceptualize, create, develop and maintain ",
+    desc: "Insatiable curiosity drives me to unearth opportunities in any field – design, engineering, finance – you name it. Like a fearless adventurer, I relish deep dives into complex concepts, uncovering hidden insights that fuel rapid learning and adaptation. But I'm not a lone wolf. A confident communicator, I ignite teams with my passion for discovery. This unique blend of curiosity, strategic thinking, and communication makes me a difference-maker, ready to conquer challenges and build rock-solid products.",
   },
 ];
 
@@ -106,7 +106,7 @@ const About = () => {
       <article className="text-center ">
         <p className="text-sm font-semibold text-dark-indigo">Hi!</p>
         <h1 className="mt-3 mb-6 text-xl ">This is TUSHAR CHOUDHARY</h1>
-        <p className="text-md text-grey-text">
+        <p className="text-[1rem] font-semibold text-[#909eb2] px-[12rem]">
           I'm Tushar Choudhary, a data science-trained product leader skilled at
           crafting user-focused solutions that wow customers and drive business
           growth. My expertise lies in defining product visions, planning
@@ -138,31 +138,17 @@ const About = () => {
           </h1>
         </div>
 
-        <article className="flex justify-between gap-6 ">
+        <article className="flex justify-between gap-6 my-[3rem]">
           {skills.map((skill, index) => {
             return (
               <SkillCardAnimated
                 key={index}
-                title={skill.title}
+                heading={skill.title}
                 content={skill.content}
                 index={index}
               />
             );
           })}
-
-          {/* <div className="border rounded-xl px-1 py-1 border-[#eceff133] bg-[#2b2b2b]  hover:bg-[#353737] w-[22rem] text-center duration-500 bg-[conic-gradient(from_90deg_at_50%,#0d1c3d_0%,#4F46E5_50%,#0f172a_100%)]">
-            <div className="absolute bg-white rounded-full size-24 blur-xl" />
-            <div className="w-full px-5 py-5 bg-[#000000] rounded-xl">
-              <h1 className="py-2 text-lg bg-black rounded-xl">Tech Skills</h1>
-
-              <ul className="mt-8">
-                {skills.map((skill) => {
-                  return <li className="pb-2 text-lg text-white">List Item</li>;
-                })}
-              </ul>
-            </div>
-          </div>
-           */}
         </article>
       </article>
 
@@ -170,11 +156,11 @@ const About = () => {
 
       <article className="text-center mt-[6rem] flex flex-col items-center">
         <h1 className="mt-1 mb-3 text-3xl font-semibold">My main skills</h1>
-        <p className="text-sm font-semibold text-grey-text w-[35rem] ">
+        <p className="text-[1rem] font-semibold text-grey-text w-[35rem] ">
           Every person is known for some of their skills and abilities. Here are
           some of mine. Important ones!
         </p>
-        <div className="flex gap-5 my-[5rem]">
+        <div className="flex gap-5 my-[2rem]">
           {mainSkills.map((skill, index) => {
             return (
               <SkillCard

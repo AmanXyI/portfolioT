@@ -67,7 +67,7 @@ const Projects = () => {
           <h1 className="mt-1 mb-3 text-3xl font-semibold">
             My Works & Projects
           </h1>
-          <p className="text-sm font-semibold text-grey-text">
+          <p className="text-[1rem] font-semibold text-grey-text">
             During the past 10 years, I've had a brilliant opportunity to
             communicate with passionate people who had a dream to lunch an
             online business or craved to automate their business procedures.
