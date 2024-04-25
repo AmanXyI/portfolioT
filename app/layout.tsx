@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Nunito } from "next/font/google";
 import "./globals.css";
 import { PHProvider } from "./providers";
-import PostHogPageView from "./PostHogPageView";
+import PostHogPageView from "../components/PostHogPageView";
 import Navbar from "@/components/ui/navbar";
 import { Suspense } from "react";
 
@@ -22,9 +22,9 @@ export default function RootLayout({
     <html lang="en">
       <PHProvider>
         <body className={inter.className}>
-          <Suspense>
-            <PostHogPageView />
-          </Suspense>
+          {/* <Suspense fallback={<div>Loading ...</div>}> */}
+          <PostHogPageView />
+          {/* </Suspense> */}
           <Navbar />
           {children}
         </body>
