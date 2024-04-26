@@ -13,9 +13,9 @@ const Career = () => {
         </h1>
         <p className="text-[1rem] font-semibold text-grey-text">
           Since I was accepted to university, I was looking for creating
-          something special, a product that can change people's life. I'm still
-          on that way. Find my career path until now in 2022 in the below
-          timeline
+          something special, a product that can change people&apos;s life.
+          I&apos;m still on that way. Find my career path until now in 2022 in
+          the below timeline
         </p>
       </article>
 

@@ -82,7 +82,7 @@ const mainSkills = [
   {
     title: "Managment",
     icon: <FaRuler />,
-    desc: "A product professional, crafting intuitive, elegant solutions that transform businesses is my driving force. With 20 months of experience managing products in logistics, tokenization, and education, I've developed a robust skillset spanning marketing, design, finance, and effective teamwork. This expertise empowers me to ideate innovative features and deliver impactful, user-centric products. The most rewarding part is directly engaging with customers, designers, and developers to create meaningful change.",
+    desc: "A product professional, crafting intuitive, elegant solutions that transform businesses is my driving force. With 20 months of experience managing products in logistics, tokenization, and education, I&apos;ve developed a robust skillset spanning marketing, design, finance, and effective teamwork. This expertise empowers me to ideate innovative features and deliver impactful, user-centric products. The most rewarding part is directly engaging with customers, designers, and developers to create meaningful change.",
   },
   {
     title: "Engineering",
@@ -92,7 +92,7 @@ const mainSkills = [
   {
     title: "Explorer",
     icon: <LuMonitor />,
-    desc: "Insatiable curiosity drives me to unearth opportunities in any field – design, engineering, finance – you name it. Like a fearless adventurer, I relish deep dives into complex concepts, uncovering hidden insights that fuel rapid learning and adaptation. But I'm not a lone wolf. A confident communicator, I ignite teams with my passion for discovery. This unique blend of curiosity, strategic thinking, and communication makes me a difference-maker, ready to conquer challenges and build rock-solid products.",
+    desc: "Insatiable curiosity drives me to unearth opportunities in any field – design, engineering, finance – you name it. Like a fearless adventurer, I relish deep dives into complex concepts, uncovering hidden insights that fuel rapid learning and adaptation. But I&apos;m not a lone wolf. A confident communicator, I ignite teams with my passion for discovery. This unique blend of curiosity, strategic thinking, and communication makes me a difference-maker, ready to conquer challenges and build rock-solid products.",
   },
 ];
 
@@ -107,24 +107,24 @@ const About = () => {
         <p className="text-sm font-semibold text-dark-indigo">Hi!</p>
         <h1 className="mt-3 mb-6 text-xl ">This is TUSHAR CHOUDHARY</h1>
         <p className="text-[1rem] font-semibold text-[#909eb2] px-[12rem]">
-          I'm Tushar Choudhary, a data science-trained product leader skilled at
-          crafting user-focused solutions that wow customers and drive business
-          growth. My expertise lies in defining product visions, planning
-          launches, and leading cross-functional teams. I've successfully
-          managed large logistics projects for industry giants like Modicare and
-          Shalimar Paints, where I spearheaded digital transformations. I've
-          pioneered products in alternative assets, learning solutions embraced
-          by governments, and innovative NFT offerings. While applying pragmatic
-          methods to ideate features, coordinate stakeholders, and oversee
-          development cycles, my prime goal is delivering outstanding user
-          experiences that inspire. With an inquisitive mind, I'm always
-          pondering thought-provoking concepts - could black holes be cosmic
-          water slides for alien vacationers? Just a wild thought! I'm grateful
-          to the amazing founders and mentors who granted me the freedom to
-          interact with inspiring entrepreneurs and represent organizations
-          before clients. These enriching experiences fueled my passion for
-          innovative ideas, even if it means late-night startup concept
-          discussions.
+          I&apos;m Tushar Choudhary, a data science-trained product leader
+          skilled at crafting user-focused solutions that wow customers and
+          drive business growth. My expertise lies in defining product visions,
+          planning launches, and leading cross-functional teams. I&apos;ve
+          successfully managed large logistics projects for industry giants like
+          Modicare and Shalimar Paints, where I spearheaded digital
+          transformations. I&apos;ve pioneered products in alternative assets,
+          learning solutions embraced by governments, and innovative NFT
+          offerings. While applying pragmatic methods to ideate features,
+          coordinate stakeholders, and oversee development cycles, my prime goal
+          is delivering outstanding user experiences that inspire. With an
+          inquisitive mind, I&apos;m always pondering thought-provoking concepts
+          - could black holes be cosmic water slides for alien vacationers? Just
+          a wild thought! I&apos;m grateful to the amazing founders and mentors
+          who granted me the freedom to interact with inspiring entrepreneurs
+          and represent organizations before clients. These enriching
+          experiences fueled my passion for innovative ideas, even if it means
+          late-night startup concept discussions.
         </p>
       </article>
 
