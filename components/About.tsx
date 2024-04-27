@@ -107,9 +107,9 @@ const About = () => {
         <p className="text-sm font-semibold text-dark-indigo">Hi!</p>
         <h1 className="mt-3 mb-6 text-xl ">This is TUSHAR CHOUDHARY</h1>
         <p className="text-[1rem] font-semibold text-[#909eb2] px-[12rem]">
-          I&apos;m Tushar Choudhary, a data science-trained product leader
+          A data product leader
           skilled at crafting user-focused solutions that wow customers and
-          drive business growth. My expertise lies in defining product visions,
+          drive business growth.<br /><br /> My expertise lies in defining product visions,
           planning launches, and leading cross-functional teams. I&apos;ve
           successfully managed large logistics projects for industry giants like
           Modicare and Shalimar Paints, where I spearheaded digital
@@ -117,7 +117,7 @@ const About = () => {
           learning solutions embraced by governments, and innovative NFT
           offerings. While applying pragmatic methods to ideate features,
           coordinate stakeholders, and oversee development cycles, my prime goal
-          is delivering outstanding user experiences that inspire. With an
+          is delivering outstanding user experiences that inspire.<br /> <br /> With an
           inquisitive mind, I&apos;m always pondering thought-provoking concepts
           - could black holes be cosmic water slides for alien vacationers? Just
           a wild thought! I&apos;m grateful to the amazing founders and mentors
