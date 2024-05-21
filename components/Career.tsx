@@ -1,3 +1,30 @@
+"use client";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@radix-ui/react-tooltip";
+
+// content for INTRESTING PROJECTS
+const projects = [
+  {
+    name: "project name",
+    icon: "/icons/favicon_snapper.png",
+    link: "/",
+  },
+  {
+    name: "project name",
+    icon: "/icons/favicon_snapper.png",
+    link: "/",
+  },
+  {
+    name: "project name",
+    icon: "/icons/favicon_snapper.png",
+    link: "/",
+  },
+];
+
 const Career = () => {
   return (
     <div
@@ -182,6 +209,33 @@ const Career = () => {
           {/* <!--end timeline item--> */}
         </div>
       </article>
+      <div className="my-[5rem] flex gap-5">
+        <h1>Intresting Projects: </h1>
+        <div className="flex gap-3">
+          {projects.map((project, index) => {
+            return (
+              <TooltipProvider key={index}>
+                <Tooltip>
+                  <TooltipTrigger>
+                    <a href={project.link}>
+                      <img
+                        src={project.icon}
+                        className="rounded-full size-8 md:mr-auto translate-y-[-.2rem] hover:scale-125 duration-200"
+                        alt=""
+                      />
+                    </a>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p className="bg-navy-blue px-4 py-2 text-sm rounded-md translate-y-[-1rem] ">
+                      {project.name}
+                    </p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
 };

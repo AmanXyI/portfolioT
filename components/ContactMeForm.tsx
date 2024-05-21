@@ -20,6 +20,8 @@ import { Textarea } from "./ui/textarea";
 import { sendEmail } from "@/lib/utils";
 import { useState } from "react";
 import { twMerge } from "tailwind-merge";
+import { Coffee, Paperclip } from "lucide-react";
+import { BiPaperPlane } from "react-icons/bi";
 
 export const formSchema = z.object({
   name: z.string().min(2, {
@@ -102,8 +104,8 @@ const ContaceMeForm = () => {
                     <FormControl>
                       <RadioGroupItem value="hire" />
                     </FormControl>
-                    <FormLabel className="font-normal cursor-pointer">
-                      Hire Me
+                    <FormLabel className="font-normal cursor-pointer flex gap-2 items-center">
+                      <Paperclip className="h-[1rem]" /> Hire Me
                     </FormLabel>
                   </FormItem>
                   <FormItem
@@ -116,8 +118,8 @@ const ContaceMeForm = () => {
                     <FormControl>
                       <RadioGroupItem value="coffee" />
                     </FormControl>
-                    <FormLabel className="font-normal cursor-pointer">
-                      Coffee chat
+                    <FormLabel className="font-normal cursor-pointer flex gap-2 justify-center items-center ">
+                      <Coffee className="h-[1rem]" /> Coffee chat
                     </FormLabel>
                   </FormItem>
                   <FormItem
@@ -159,7 +161,9 @@ const ContaceMeForm = () => {
           )}
         />
 
-        <Button type="submit">Send Message</Button>
+        <Button type="submit" className="flex gap-2">
+          Send Message <BiPaperPlane className="" />
+        </Button>
       </form>
     </Form>
   );
