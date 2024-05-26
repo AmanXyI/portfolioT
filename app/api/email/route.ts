@@ -1,7 +1,7 @@
-// import { type NextRequest, NextResponse } from 'next/server';
+// import { type NextRequest, NextResponse } from &apos;next/server&apos;;
 
 // export async function POST(request: NextRequest) {
-//   return NextResponse.json('Hello from API!');
+//   return NextResponse.json(&apos;Hello from API!&apos;);
 // }
 
 import { Coffee } from "lucide-react";

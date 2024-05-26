@@ -13,7 +13,7 @@ import PostHogClient from "./posthog";
 export default async function Home() {
   const posthog = PostHogClient();
   const flags = await posthog.getAllFlags(
-    "user_distinct_id" // replace with a user's distinct ID
+    "user_distinct_id" // replace with a user&apos;s distinct ID
   );
   await posthog.shutdown();
   // posthog.capture("my event", { property: "value" });

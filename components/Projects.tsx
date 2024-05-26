@@ -27,7 +27,7 @@ const portfolioContents = [
     title: "Tech:API Development",
     type: "project",
     imgAdd:
-    "https://images.pexels.com/photos/16039120/pexels-photo-16039120/free-photo-of-sunlit-rocks-on-sea-shore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/16039120/pexels-photo-16039120/free-photo-of-sunlit-rocks-on-sea-shore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "https://tushar-fast-api.onrender.com/",
     duration: "2023",
     desc: "CRUD operations, data validation, database migration management, user auth, and deployment guidance for secure, scalable applications.",
@@ -36,7 +36,7 @@ const portfolioContents = [
     title: "Data Analysis on Mutual Funds",
     type: "project",
     imgAdd:
-    "https://images.pexels.com/photos/16039120/pexels-photo-16039120/free-photo-of-sunlit-rocks-on-sea-shore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/16039120/pexels-photo-16039120/free-photo-of-sunlit-rocks-on-sea-shore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "https://colab.research.google.com/drive/19di2K4hyvozqmO3S0apcCw8nQNkiADv6#scrollTo=Umu8xUX8GO4Q/",
     duration: "2023",
     desc: "Comprehensive data including basic info, financial metrics, ESG scores, performance, and more for 57,603 Mutual Funds ",
@@ -57,7 +57,7 @@ const portfolioContents = [
       "https://images.pexels.com/photos/20753710/pexels-photo-20753710/free-photo-of-sunrise-in-berlin-on-film.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "https://www.credential.net/314cad8f-9a67-4203-af1e-5fe466584d92/",
     duration: "2023",
-    desc: "ESG's impact on risk management and corporate strategy, exploring its components, stakeholder expectations, and real-world applications through case studies.",
+    desc: "ESG&apos;s impact on risk management and corporate strategy, exploring its components, stakeholder expectations, and real-world applications through case studies.",
   },
   {
     title: "Software Project Management",
@@ -75,7 +75,7 @@ const portfolioContents = [
       "https://images.pexels.com/photos/20753710/pexels-photo-20753710/free-photo-of-sunrise-in-berlin-on-film.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "https://www.credential.net/314cad8f-9a67-4203-af1e-5fe466584d92/",
     duration: "2023",
-    desc: " Behavioral Finance, Financial Markets, Finance, and Behavioral Economics through Yale's comprehensive program.",
+    desc: " Behavioral Finance, Financial Markets, Finance, and Behavioral Economics through Yale &apos; s comprehensive program.",
   },
   {
     title: "Supplychain Logistics Certification",
@@ -104,7 +104,7 @@ const portfolioContents = [
     duration: "2023",
     desc: "Accounting Fundamentals and crafting Income Statements, Balance Sheets, and Cash Flow Statements from scratch by CFI.",
   },
-  
+
   {
     title: "Blog:Coming soon",
     type: "blog",
@@ -141,11 +141,13 @@ const Projects = () => {
             My Works & Projects
           </h1>
           <p className="text-[1rem] font-semibold text-grey-text">
-          Over the past two years, I&apos;ve been deeply involved in project management and product development, 
-          refining strategies and navigating challenges with dedication. 
-          Simultaneously, I've connected with passionate individuals in finance, technology, and data analysis, sharing insights and fostering growth. 
-          From guiding API development to exploring AI certifications, these experiences have shaped our journey toward success.
-          
+            Over the past two years, I&apos;ve been deeply involved in project
+            management and product development, refining strategies and
+            navigating challenges with dedication. Simultaneously, I&apos;ve
+            connected with passionate individuals in finance, technology, and
+            data analysis, sharing insights and fostering growth. From guiding
+            API development to exploring AI certifications, these experiences
+            have shaped our journey toward success.
           </p>
         </article>
         <div className="flex gap-8 mt-16 ">
